@@ -93,9 +93,10 @@ Using Power BI, the dashboard provides a 360° view of revenue trends, occupancy
 4.	Verify relationships: Calendar ← Bookings ← Properties ← Platforms (star schema).
 5.	Refresh visuals; validate totals against source data.
 
-                                                 Contact 
-1.  Owner: WANI UMAR 
-2. Email :-umar.1analytics@gmail.com 
-3. 	LINKEDIN:- https://www.linkedin.com/posts/waniumer-analytics_powerbi-dataanalytics-businessintelligence-activity-7431965502962524161-uSKl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFNS0HwB-OAdiVBbiM-Z0IdF32qvthi_XwE 
-4.  GITHUB:- https://github.com/waniumer-analytics/Atliq-Hospitality-Insights-360 
+                                                    LINKS  
+1.  WANI UMAR 
 
+2. 	LINKEDIN:- https://www.linkedin.com/posts/waniumer-analytics_powerbi-dataanalytics-businessintelligence-activity-7431965502962524161-uSKl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFNS0HwB-OAdiVBbiM-Z0IdF32qvthi_XwE 
+
+3.PORTFOLIO:-  
+https://codebasics.io/portfolio/WANI-UMER
