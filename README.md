@@ -14,17 +14,17 @@ City / Room Class / Category analytics
 
 
                                                    Project Overview
-This project analyzes the business performance of AtliQ Hospitality, a chain of luxury and business hotels across multiple Indian cities.
+-This project analyzes the business performance of AtliQ Hospitality, a chain of luxury and business hotels across multiple Indian cities.
 Using Power BI, the dashboard provides a 360° view of revenue trends, occupancy performance, booking behavior, cancellation rates, customer ratings, property comparison, and city-wise profitability. The main objective is to help the hospitality team make data-driven decisions related to pricing, demand forecasting, property performance, customer experience, and strategic business expansion.
 
                                                     Key Business Questions
                                                     
-1. How are revenue, occupancy, and bookings performing overall?
-2. 	Which cities, room types, and platforms contribute the most to revenue?
-3. 	How do weekdays and weekends impact business performance?
-4. 	Which properties are underperforming and require attention?
-5. 	How do cancellation rates and customer ratings affect revenue?
-6. 	What are the weekly demand patterns and seasonality trends?
+-  How are revenue, occupancy, and bookings performing overall?
+- 	Which cities, room types, and platforms contribute the most to revenue?
+-  	How do weekdays and weekends impact business performance?
+-   Which properties are underperforming and require attention?
+-   How do cancellation rates and customer ratings affect revenue?
+-   What are the weekly demand patterns and seasonality trends?
 
 
                                                        Key Insights
@@ -41,13 +41,13 @@ Using Power BI, the dashboard provides a 360° view of revenue trends, occupancy
 
                                            What’s Included in the Dashboard
                                            
-1. 	Overview / Executive KPIs:-   Revenue, RevPAR, ADR, DSRN, Occupancy %, Realisation %, Cancellation %, Avg Rating.
-2. 	Weekday vs Weekend split:-   Separate KPI tiles for each to reveal different demand profiles.
-3.  Revenue Contributors:-   Top properties, cities, platforms, room classes and categories.
-4. 	Key Metrics by Property:-   Revenue, Occupancy, Cancellation, Capacity, Rating.
-5. 	Booking % by Room Class:-  Treemap / distribution visualization.
-6. 	Weekly Trends:-   Time series for Revenue, Bookings, Occupancy with weekly granularity.
-7. 	Segment Analytics:-   City-level, Room-class, Category (Business vs Luxury) performance and revenue-per-booking.
+-  	Overview / Executive KPIs:-   Revenue, RevPAR, ADR, DSRN, Occupancy %, Realisation %, Cancellation %, Avg Rating.
+-  	Weekday vs Weekend split:-   Separate KPI tiles for each to reveal different demand profiles.
+-   Revenue Contributors:-   Top properties, cities, platforms, room classes and categories.
+-   Key Metrics by Property:-   Revenue, Occupancy, Cancellation, Capacity, Rating.
+-   Booking % by Room Class:-  Treemap / distribution visualization.
+-   Weekly Trends:-   Time series for Revenue, Bookings, Occupancy with weekly granularity.
+-   Segment Analytics:-   City-level, Room-class, Category (Business vs Luxury) performance and revenue-per-booking.
 
                                                     Tools & Technologies Used
                                                     
@@ -61,17 +61,17 @@ Using Power BI, the dashboard provides a 360° view of revenue trends, occupancy
 8. 	GitHub for version control & documentation.
 
                                                                  
-                                                                  KPIs Tracked
+                                                  KPIs Tracked
 
-1. NetRevenue = SUM(Bookings[Revenue]) 
-2. OccupancyPct = DIVIDE(SUM(Bookings[OccupiedRoomNights]), SUM(Calendar[SellableRoomNights])).
-3. ADR (Average Daily Rate) = DIVIDE([NetRevenue], SUM(Bookings[OccupiedRoomNights])).
-4. RevPAR = [ADR] * [OccupancyPct].
-5. Cancellation Rate = DIVIDE(SUM(Bookings[CancelledBookings]), SUM(Bookings[TotalBookings])).
-6. Keep DAX measures centralized in a Measures table and document their definitions in docs/KPI_Definitions.md.
+-  NetRevenue = SUM(Bookings[Revenue]) 
+-  OccupancyPct = DIVIDE(SUM(Bookings[OccupiedRoomNights]), SUM(Calendar[SellableRoomNights])).
+-  ADR (Average Daily Rate) = DIVIDE([NetRevenue], SUM(Bookings[OccupiedRoomNights])).
+-  RevPAR = [ADR] * [OccupancyPct].
+-  Cancellation Rate = DIVIDE(SUM(Bookings[CancelledBookings]), SUM(Bookings[TotalBookings])).
+-  Keep DAX measures centralized in a Measures table and document their definitions in docs/KPI_Definitions.md.
 
 
-                                           Business Impact
+                                                  Business Impact
                                            
 1. 	Improved visibility into city-wise and property-wise profitability.
 2. 	Clear identification of high-risk areas (cancellations, low occupancy).
@@ -80,11 +80,11 @@ Using Power BI, the dashboard provides a 360° view of revenue trends, occupancy
 
                                            
                                        Recommendations 
-1.	Strengthen Direct Booking channel and loyalty incentives.
-2.	Introduce conditional non-refundable pricing to reduce cancellations.
-3.	Implement targeted weekday offers (corporate packages) to raise occupancy.
-4.	Prioritize service improvements for low-rating properties.
-5.	Add a data quality & anomaly detection check (e.g., flag sudden weekly drops).
+- 	Strengthen Direct Booking channel and loyalty incentives.
+- 	Introduce conditional non-refundable pricing to reduce cancellations.
+-  Implement targeted weekday offers (corporate packages) to raise occupancy.
+-  Prioritize service improvements for low-rating properties.
+- Add a data quality & anomaly detection check (e.g., flag sudden weekly drops).
 
                                           How to Use 
 1.	Place your cleaned stock data (bookings, properties, calendar) into data/ folder.
@@ -93,10 +93,7 @@ Using Power BI, the dashboard provides a 360° view of revenue trends, occupancy
 4.	Verify relationships: Calendar ← Bookings ← Properties ← Platforms (star schema).
 5.	Refresh visuals; validate totals against source data.
 
-                                                    LINKS  
-1.  WANI UMAR 
-
-2. 	LINKEDIN:- https://www.linkedin.com/posts/waniumer-analytics_powerbi-dataanalytics-businessintelligence-activity-7431965502962524161-uSKl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFNS0HwB-OAdiVBbiM-Z0IdF32qvthi_XwE 
-
-3.PORTFOLIO:-  
-https://codebasics.io/portfolio/WANI-UMER
+                                                    AUTHOR
+-  WANI UMAR .(DATA ANALYST).
+- LINKEDIN:- https://www.linkedin.com/posts/waniumer-analytics_powerbi-dataanalytics-businessintelligence-activity-7431965502962524161-uSKl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFNS0HwB-OAdiVBbiM-Z0IdF32qvthi_XwE .
+- PORTFOLIO:- https://codebasics.io/portfolio/WANI-UMER .
